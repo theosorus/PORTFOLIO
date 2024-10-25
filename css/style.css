@@ -137,12 +137,16 @@ REUSABLE
 NAVBAR
 *****************/
 #navbar {
-    padding: 20px;
+    position: fixed;
+    background-color: var(--background);
+    padding: 0px 20px;
+    width: 100%;
     height: var(--nav-bar-height);
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--font-color);
+    z-index: 1000;
 }
 
 #navbar h1 {
@@ -191,11 +195,11 @@ HOME
 #home-container{
     display: flex;
     justify-content: center;
-    height: calc(100vh - var(--nav-bar-height) - 200px);
+    height: calc(100vh - var(--nav-bar-height));
 }
 
 #home-presentation-container{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 #title{
@@ -224,6 +228,7 @@ HOME
 
 
 #threeD-container {
+    margin-top: 100px;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
@@ -233,7 +238,7 @@ HOME
 .logo-container{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-right: 10px;
 
 }
