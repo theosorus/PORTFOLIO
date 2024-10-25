@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Toggle.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/other_projects.css">
+    <title>Document</title>
+
+    <!-- 3D -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+
+    <!-- Parallax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-parallax-js/5.6.1/simpleParallax.min.js"></script>
+
+
+
+    
+    <script src="js/utils.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/sketch.js"></script>
+
+</head>
+<body>
+
+
+    <header id="navbar">
+        <h1>Theo Castillo</h1>
+        <div class="right-side-nav">
+            <div class="navbar-item-container">
+                <a href="#home" class="nav-item hover-text" onclick="scrollToSection('home-container')">Home</a>
+                <a href="#presentation" class="nav-item hover-text" onclick="scrollToSection('about-me-container')">About Me</a>
+                <a href="#skills" class="nav-item hover-text" onclick="scrollToSection('about-me-container')">Skills</a>
+                <a href="#projects" class="nav-item hover-text" onclick="scrollToSection('projects-global-container')">Projects</a>
+                <a href="#contact" class="nav-item hover-text" onclick="scrollToSection('footer')">Contact Me</a>
+            </div>
+            <label class="ui-switch">
+                <input
+                    type="checkbox"
+                    id="theme-toggle-input"
+                    onchange="toggleTheme()"
+                />
+                <div class="slider">
+                    <div class="circle"></div>
+                </div>
+            </label>
+        </div>
+    </header>
+
+
+
+
+
+    <a id="home"></a>
+    <div id="home-container">
+        <div class="logo-container">
+            <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
+                <div class="icon" style="cursor: pointer;">
+                    <img class="hover-bg item-logo" src="assets/icons/github.svg" alt="GitHub"/>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/theo-castillo-760606315" target="_blank" rel="noopener noreferrer">
+                <div class="icon" style="cursor: pointer;">
+                    <img class="hover-bg item-logo" src="assets/icons/linkedin.svg" alt="LinkedIn"/>
+                </div>
+            </a>
+        </div>
+
+        <div id="home-presentation-container">
+            <h1 id="title" class="section-title" style="white-space: nowrap;">Hello I'm Theo</h1>
+            <h2>Computer Science Student</h2>
+            <div id="typewriter">
+                <span>Studying </span>
+                <span id="word"></span>
+                <span class="cursor">|</span>
+            </div>
+            <div class="home-button hover-bg" onclick="handleDownload()">
+                <div>
+                    <button class="link-button font-color">Download CV</button>
+                </div>
+                <img src="assets/icons/file-text.svg" alt=""/>
+            </div>
+        </div>
+        <div id="threeD-container">
+            <!-- Placeholder for ThreeDModel -->
+        </div>
+    </div>
+
+
+
+    <a id="presentation"></a>
+    <div id="about-me-container">
+        <h1>About Me</h1>
+        <div id="carte-presentation">
+            <div id="img-container" class="hidden">
+                <img src="assets/pictures/theo.jpeg" class="para-img" id="parallax-image" alt="theo at gp"/>
+            </div>
+            <div id="texte-container" class="hidden">
+                <p>
+                    My name is Theo, I'm 18 and I'm studying computer science at the
+                    Gradignan Institute in Bordeaux. I've been passionate for a few
+                    years now. I started learning on my own in high school and then
+                    made it my career. Today I'm particularly interested in artificial
+                    intelligence in the global sense.
+                </p>
+                <div class="home-button  hover-bg" onclick="scrollToSection('footer')">
+                    <button class="link-button font-color">Contact Me</button>
+                    <img src="assets/icons/send-message.svg" alt="" onclick="event.stopPropagation(); scrollToSection('footer');"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a id="skills"></a>
+    <div id="skills-global-container">
+        <h1>Skills</h1>
+        <div id="skills-container">
+            <div class="skills-section">
+                <h2>Languages</h2>
+                <div class="skills-icons-container hidden">
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/python.png" class="icon" alt="python"/>
+                        Python
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/java.png" class="icon" alt="java"/>
+                        Java
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/html-5.png" class="icon" alt="html"/>
+                        Html
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/css-3.png" class="icon" alt="css"/>
+                        Css
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/js.png" class="icon" alt="js"/>
+                        Javascript
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/php.png" class="icon" alt="php"/>
+                        PHP
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/haskell.png" class="icon" alt="haskell"/>
+                        Haskell
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/c++.png" class="icon" alt="c++"/>
+                        C++
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/csharp.png" class="icon" alt="c#"/>
+                        C#
+                    </div>
+                </div>
+            </div>
+            <div class="skills-section">
+                <h2>Technologies</h2>
+                <div class="skills-icons-container hidden">
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/tf.png" class="icon" alt="tf"/>
+                        TensorFlow
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/pytorch.png" class="icon" alt="pytorch"/>
+                        PyTorch
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/github.png" class="icon" alt="github"/>
+                        GitHub
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/react.png" class="icon" alt="react"/>
+                        React
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/numpy.png" class="icon" alt="numpy"/>
+                        numpy
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/mathplt.png" class="icon" alt="mathplt"/>
+                        Matplotlib
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/git.png" class="icon" alt="git"/>
+                        Git
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/aws.png" class="icon" alt="aws"/>
+                        AWS
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/django.png" class="icon" alt="django"/>
+                        Django
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/sql.png" class="icon" alt="sql"/>
+                        Sql
+                    </div>
+                </div>
+            </div>
+            <div class="skills-section">
+                <h2>How I work</h2>
+                <div class="skills-icons-container hidden">
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/jetbrain.png" class="icon" alt="jetbrain"/>
+                        JetBrain
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/vs.png" class="icon" alt="vscode"/>
+                        VScode
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/github.png" class="icon" alt="github"/>
+                        Github
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/ubuntu.png" class="icon" alt="ubuntu"/>
+                        Ubuntu
+                    </div>
+                    <div class="skill-icon">
+                        <img src="assets/pictures/skills/apple.png" class="icon" alt="apple"/>
+                        MacOs
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <a id="projects"></a>
+    <section class="section" id="projects_section">
+        <div class="content leaning">
+            <span class="section_title">Some of my Projects</span>
+            <div class="sort_choices">
+                <span class="label">Sort by</span>
+                <div class="choice selected">Default</div>
+                <div class="choice">School</div>
+                <div class="choice">Personal</div>
+                <div class="choice">AI</div>
+                <div class="choice">Web</div>
+                <div class="choice">Simulations</div>
+                
+            </div>
+            <div class="projects_content"></div>
+            <div class="other_projects_content"></div>
+        </div>
+    </section>
+    <div class="section_end projects_end"></div>
+    <script> projects_events();</script>
+
+
+    <a id="contact"></a>
+    <section class="section" id="contact_section">
+        <span class="section_title">How to contact me </span>
+        <div id="contact-container" class="hidden">
+            <a href="mailto:theocastillo@yahoo.com">
+                <div class="contact_info">
+                    <div>
+                        <div class="icon" style="cursor: pointer;">
+                            <img class="hover-bg item-logo" src="resources/icons/mail.svg" alt="mail"/>
+                        </div>
+                    </div>
+                    <div class="label-contact">
+                        <h3 class="contact_title">theocastillo@yahoo.com</h3>
+                    </div>
+                    
+                </div>
+            </a>
+        
+            <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
+                <div class="contact_info">
+                    <div>
+                        <div class="icon" style="cursor: pointer;">
+                            <img class="hover-bg item-logo" src="resources/icons/github.svg" alt="GitHub"/>
+                        </div>
+                    </div>
+                    <div class="label-contact">
+                        <h3 class="contact_title">Gazeux33</h3>
+                    </div>
+                </div>
+            </a>
+        
+            <a href="https://www.linkedin.com/in/theo-castillo/" target="_blank" rel="noopener noreferrer">
+                <div class="contact_info">
+                    <div>
+                        <div class="icon" style="cursor: pointer;">
+                            <img class="hover-bg item-logo" src="resources/icons/linkedin.svg" alt="LinkedIn"/>
+                        </div>
+                    </div>
+                    <div class="label-contact">
+                        <h3 class="contact_title">Theo Castillo</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer id="footer"></footer>
+    
+
+    <script src="js/render.js"></script>
+</body>
+</html>
