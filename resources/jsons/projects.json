@@ -119,13 +119,13 @@
 		  { "name": "JavaFX", "url": "https://openjfx.io/" }
 		],
 		"links": [
-		  "#",
-		  "#",
+		  "none",
+		  "none",
 		  "none"
 		],
 		"image": "resources/images/projects/graph.png",
 		"logo": "resources/svgs/projects/Language_model.svg",
-		"categories": ["School", "AI"]
+		"categories": ["School","Simulations"]
 	  },
 	  {
 		"date": 2024,
