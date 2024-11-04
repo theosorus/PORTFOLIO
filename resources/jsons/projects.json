@@ -130,6 +130,25 @@
 	  {
 		"date": 2024,
 		"type": "Personal Project",
+		"title": "Car Plates Detection",
+		"description": "Create a pipeline of two finetunned YOLOv8 models to detect and analyze car plates",
+		"tags": [
+		  { "name": "Python", "url": "https://www.python.org/" },
+		  { "name": "Yolo", "url": "https://docs.ultralytics.com/fr/models/yolo-world/" },
+		  { "name": "PyTorch", "url": "https://pytorch.org/" }
+		],
+		"links": [
+		  "https://github.com/Gazeux33/CarPlateDetection",
+		  "https://github.com/Gazeux33/CarPlateDetection",
+		  "none"
+		],
+		"image": "resources/images/projects/car.png",
+		"logo": "resources/svgs/projects/Language_model.svg",
+		"categories": ["Personal", "AI"]
+	  },
+	  {
+		"date": 2024,
+		"type": "Personal Project",
 		"title": "Snake AI",
 		"description": "Snake AI using Neural Network in PyTorch",
 		"tags": [
