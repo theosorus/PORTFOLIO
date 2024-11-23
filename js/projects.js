@@ -132,7 +132,7 @@ function projects_events()
 					<div class="other_project_content">
 						<div class="header">
 							<div class="logos">
-								<img src="${project.logo}" alt="${project.title.toLowerCase()} logo" width="45px" height="45px"/>
+								 <img src="${project.logo}" alt="${project.title.toLowerCase()} logo" width="45px" height="45px"/> 
 								<div class="links">
 									` + (project.links[1] == 'none' ? '' : `
 									<a class="github" href="${project.links[1]}" aria-label="github" target="_blank">

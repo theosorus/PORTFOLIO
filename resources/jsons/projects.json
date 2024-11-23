@@ -4,7 +4,7 @@
 		"date": 2024,
 		"type": "Personal Project",
 		"title": "Large Language Model",
-		"description": "In this project, I built a French Large Language Model only with pytorch",
+		"description": "In this project, I built and trained a French Large Language Model with pytorch",
 		"tags": [
 		  { "name": "Python", "url": "https://www.python.org/" },
 		  { "name": "PyTorch", "url": "https://pytorch.org/" }
@@ -15,7 +15,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/llm.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
 	  {
@@ -33,7 +33,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/nn.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
 	  {
@@ -51,7 +51,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/nst.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
 	  {
@@ -69,9 +69,64 @@
 		  "none"
 		],
 		"image": "resources/images/projects/gan2.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
+		{
+			"date": 2024,
+			"type": "Personal Project",
+			"title": "Cellular Automata 3D Renderer",
+			"description": "Library to visualise Cellular Automata easily with OpenGL in Python",
+			"tags": [
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "OpenGL", "url": "https://www.opengl.org/" }
+			],
+			"links": [
+				"https://github.com/Gazeux33/VisualiseCellularAutomata3DLibrary",
+				"https://github.com/Gazeux33/VisualiseCellularAutomata3DLibrary",
+				"none"
+			],
+			"image": "resources/images/projects/noise1.png",
+			"logo": "resources/svgs/projects/Minecraft_clone.svg",
+			"categories": ["Personal", "AI"]
+		},
+		{
+			"date": 2024,
+			"type": "Personal Project",
+			"title": "TradeFormer",
+			"description": "Training a financial forecasting model based on the AutoFormer architecture with PyTorch and Alpaca.py",
+			"tags": [
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "PyTorch", "url": "https://pytorch.org/" },
+				{ "name": "Alpaca", "url": "https://alpaca.markets/sdks/python/" }
+			],
+			"links": [
+				"https://github.com/Gazeux33/TradeFormer",
+				"https://github.com/Gazeux33/TradeFormer",
+				"none"
+			],
+			"image": "resources/images/projects/tradeformer.png",
+			"logo": "resources/svgs/projects/Minecraft_clone.svg",
+			"categories": ["Personal", "AI"]
+		},
+		{
+			"date": 2024,
+			"type": "Personal Project",
+			"title": "Diffusion model",
+			"description": "A PyTorch diffusion model to generate realistic synthetic cat images from gaussian noise",
+			"tags": [
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "PyTorch", "url": "https://pytorch.org/" }
+			],
+			"links": [
+				"https://github.com/Gazeux33/DiffusionModel",
+				"https://github.com/Gazeux33/DiffusionModel",
+				"none"
+			],
+			"image": "resources/images/projects/diffusion.png",
+			"logo": "resources/svgs/projects/Minecraft_clone.svg",
+			"categories": ["Personal", "AI"]
+		},
 	  {
 		"date": 2024,
 		"type": "Personal Project",
@@ -87,7 +142,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/VAE.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
 	  {
@@ -106,7 +161,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/maze2.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal"]
 	  },
 	  {
@@ -124,7 +179,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/graph.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["School","Simulations"]
 	  },
 	  {
@@ -143,7 +198,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/car.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
 	  {
@@ -162,7 +217,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/snake.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
 	  {
@@ -181,7 +236,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/connect4.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "AI"]
 	  },
 	  {
@@ -199,7 +254,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/particle.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "Simulations"]
 	  },
 	  {
@@ -217,7 +272,7 @@
 		  "https://gazeux33.github.io/Procedural-Generation/"
 		],
 		"image": "resources/images/projects/pg.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "Web"]
 	  },
 	  {
@@ -234,7 +289,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/TOWA.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["School", "AI"]
 	  },
 	  {
@@ -252,7 +307,7 @@
 		  "none"
 		],
 		"image": "resources/images/projects/msh.png",
-		"logo": "resources/svgs/projects/Language_model.svg",
+		"logo": "resources/svgs/projects/Minecraft_clone.svg",
 		"categories": ["Personal", "Web"]
 	  }
 	]
