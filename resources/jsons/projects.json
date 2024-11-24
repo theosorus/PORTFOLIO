@@ -112,7 +112,7 @@
 		{
 			"date": 2024,
 			"type": "Personal Project",
-			"title": "Diffusion model",
+			"title": "Diffusion Model",
 			"description": "A PyTorch diffusion model to generate realistic synthetic cat images from gaussian noise",
 			"tags": [
 				{ "name": "Python", "url": "https://www.python.org/" },
